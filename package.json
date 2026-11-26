@@ -1,0 +1,14 @@
+{
+  "name": "the-void",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "seed": "node seed.mjs",
+    "start": "node server.mjs",
+    "dev": "node --watch server.mjs"
+  }
+}
